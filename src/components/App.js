@@ -6,6 +6,8 @@ import {
   Link,
 } from 'react-router-dom';
 
+import Redirect from './Redirect';
+
 export default function App() {
   return (
     <Router>
@@ -33,7 +35,7 @@ export default function App() {
           <h1>Login Page</h1>
         </Route>
         <Route path="/redirect">
-          <h1>Redirect Page</h1>
+          <Redirect />
         </Route>
         <Route path="/">
           <h1>Home Page</h1>
