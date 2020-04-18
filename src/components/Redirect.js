@@ -1,5 +1,5 @@
 import React from 'react';
-import { get, getWithAuth } from '../services/request';
+import { get } from '../services/request';
 
 const Redirect = () => {
   const code = window.location.search.split('=')[1];
