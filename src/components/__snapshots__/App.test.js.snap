@@ -38,9 +38,7 @@ exports[`App component renders App 1`] = `
     <Route
       path="/redirect"
     >
-      <h1>
-        Redirect Page
-      </h1>
+      <Redirect />
     </Route>
     <Route
       path="/"
