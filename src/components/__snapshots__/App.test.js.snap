@@ -38,14 +38,12 @@ exports[`App component renders App 1`] = `
     <Route
       path="/redirect"
     >
-      <Redirect />
+      <Connect(withRouter(Redirect)) />
     </Route>
     <Route
       path="/"
     >
-      <h1>
-        Home Page
-      </h1>
+      <Connect(Home) />
     </Route>
   </Switch>
 </BrowserRouter>
